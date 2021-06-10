@@ -76,7 +76,7 @@ Thief();
 
 function Thief(){
  if(frameCount%200===0){
-  thief=createSprite(700,600,20,20);
+  thief=createSprite(1000,600,20,20);
    thief.addImage(thiefImg);
    thief.velocityX=-2;
    thief.lifetime=289;
